@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/books-g86f23676e_1920.jpg);
+    background-repeat: repeat;
+}
+
+div.titulo {
+
+    font-size: 22px;
+    color: cornsilk;
+    text-align: center;
+}
+
+div.caja {
+
+    margin: auto;
+    background-color: rgba(58, 53, 45, 0.4);
+    width: 500px;
+    border-radius: 20px;
+}
+
+div.formulario {
+    
+    
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 30px;
+    font-size: 18px;
+
+}

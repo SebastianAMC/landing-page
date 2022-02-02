@@ -8,37 +8,54 @@
     <link href="estilos.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Nuevo Libro de Anne Baileys</h1>
+    <div class="titulo">
+        <h1>Nuevo Libro de Anne Baileys</h1>
+    </div>
 
-    <form action="" method="get">
-        <label for="nombre">
+    <div style="text-align: center;">
+        <img src="images/to-learn-g7ad01f9a2_1280.jpg" style="border-radius: 25px" alt="autora" width="500px" />
+    </div>
+    <br><br><br>
+
+   <div class="caja"> 
+       <div class="formulario">
+            <form action="" method="get" >
+            <label for="nombre">
             Nombre
             <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
-        </label>
-        <br /> <br />
-        <label for="email">
+            </label>
+             <br /> <br />
+            <label for="email">
             E-mail
-            <input type="text" id="email" placeholder="tumail@correo.com" />
-        </label>
-        <br />
-        <p>Seleccione su género</p>
+            <input type="text" id="email"  placeholder="tumail@correo.com" style="margin-left: 10px;" />
+             </label>
+            <br />
+             <p>Seleccione su género</p>
             <input type="radio" id="masculino" name="genero" value="Masculino" />
-            <label for="masculino">Masculino</label>
+            <label for="masculino">
+                Masculino
+            </label>
             <br>
             <input type="radio" id="femenino" name="genero" value="femenino" />
-            <label for="femenino">Femenino</label>
+            <label for="femenino">
+                Femenino
+            </label>
             <br />
             <input type="radio" name="genero" id="Otro" value="otro" />
-            <label for="Otro">Otro</label>
-            <br />
-        <label for="Edad">
+            <label for="Otro">
+                Otro
+            </label>
+            <br /><br />
+             <label for="Edad">
             Edad
-        </label>
-        <input type="number" id="Edad" value="edad"/>
-        <br /> <br/>
-        <button type="submit">Suscríbete</button>
-
-        </label>
+            </label>
+            <input type="number" id="Edad" value="edad" style="width: 30px;"/>
+            <br /> <br />
+            <button type="submit" style="background-color: darkgreen;color: white; text-align: center;">
+                Suscríbete
+            </button>
+        </div>
+    </div>
   </form>
 </body>
 </html>
