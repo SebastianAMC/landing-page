@@ -19,17 +19,25 @@
 
    <div class="caja"> 
        <div class="formulario">
-            <form action="" method="get" >
-            <label for="nombre">
+    <form action="" method="get" >
+            <div class="form-items"><label for="nombre">
             Nombre
             <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
             </label>
+            </div>
+
              <br /> <br />
+
+             <div class="form-items">
             <label for="email">
             E-mail
             <input type="text" id="email"  placeholder="tumail@correo.com" style="margin-left: 10px;" />
              </label>
+            </div>
+            
             <br />
+            
+            <div class="form-items">
              <p>Seleccione su género</p>
             <input type="radio" id="masculino" name="genero" value="Masculino" />
             <label for="masculino">
@@ -45,17 +53,27 @@
             <label for="Otro">
                 Otro
             </label>
+            </div>
+            
             <br /><br />
+            
+            <div class="form-items">
              <label for="Edad">
             Edad
             </label>
             <input type="number" id="Edad" value="edad" style="width: 30px;"/>
+            </div>
+            
             <br /> <br />
-            <button type="submit" style="background-color: darkgreen;color: white; text-align: center;">
+            
+            <div class=buttons>
+                <button type="submit" style="background-color: darkgreen; color: white; padding: 20px 10px;">
                 Suscríbete
-            </button>
+                </button>
+            </div>
         </div>
     </div>
+    <br><br><br>
   </form>
 </body>
 </html>
